@@ -22,7 +22,7 @@ void main() {
   }
   
   //e. Salários de R$ 2000,00 em diante: aumento de 5%
-  if ((salario >= 2000)&&(salario <= 2000))
+  if (salario >= 2000)
   {
     print(salario + (salario / 100) * 5);
   }
